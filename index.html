@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prabhat Tomar — Finance & Analytics</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Page transition overlay -->
+  <div class="page-transition" id="pageTransition"></div>
+
+  <!-- Section transition curtain -->
+  <div class="scroll-curtain" id="scrollCurtain"></div>
+
+  <!-- ===== NAV ===== -->
+  <nav id="nav">
+    <a href="#hero" class="nav-brand">Prabhat Tomar</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="dark-toggle" id="darkToggle" aria-label="Toggle dark mode">
+        <span class="sun-icon">☀</span>
+        <span class="moon-icon">☽</span>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" class="mob-link">About</a>
+    <a href="#skills" class="mob-link">Skills</a>
+    <a href="#experience" class="mob-link">Experience</a>
+    <a href="#education" class="mob-link">Education</a>
+    <a href="#contact" class="mob-link">Contact</a>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-eyebrow reveal">Finance &amp; Business Analytics</p>
+        <h1 class="hero-name reveal delay-1">
+          Prabhat<br /><em>Tomar</em>
+        </h1>
+        <p class="hero-tagline reveal delay-2">"Turning Data into Smarter Financial Decisions"</p>
+        <p class="hero-meta reveal delay-2">B.S. Management &amp; Public Policy · IIM Sambalpur '29</p>
+        <div class="hero-actions reveal delay-3">
+          <a href="#about" class="btn-primary">Explore Profile</a>
+          <a href="https://linkedin.com/in/prabhattomar" target="_blank" rel="noopener" class="btn-outline">LinkedIn →</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap reveal delay-2">
+        <div class="photo-outer-ring">
+          <div class="photo-inner-ring">
+            <div class="photo-frame">
+              <img src="profile.jpg" alt="Prabhat Tomar" id="profileImg" />
+              <div class="photo-fallback" id="imgFallback">PT</div>
+            </div>
+          </div>
+        </div>
+        <div class="photo-badge badge-degree">
+          <span class="badge-icon">🎓</span>
+          <span class="badge-text">IIM Sambalpur</span>
+        </div>
+        <div class="photo-badge badge-role">
+          <span class="badge-icon">📊</span>
+          <span class="badge-text">Finance Analyst</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-track"><div class="scroll-runner"></div></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" data-section="about">
+    <div class="section-bg-dots"></div>
+    <div class="section-inner">
+      <span class="section-eyebrow reveal">01 — About</span>
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <h2>Aspiring<br /><em>Finance</em><br />Professional</h2>
+          <div class="accent-line"></div>
+        </div>
+        <div class="about-right reveal delay-1">
+          <p><strong>I'm an aspiring finance professional</strong> with a focus on analytics and business intelligence, currently pursuing a B.S. in Management and Public Policy at <strong>IIM Sambalpur</strong>.</p>
+          <p>Learning <strong>Python, Excel, and Power BI</strong> to build data-driven financial solutions — passionate about understanding how data can transform financial decision-making and create meaningful impact in the finance industry.</p>
+          <p>My goal is to combine <strong>financial expertise with technical capabilities</strong> to solve complex problems. Always open to connecting with professionals in finance, analytics, and entrepreneurship.</p>
+          <div class="about-chips">
+            <span class="chip">Policy Research</span>
+            <span class="chip">Finance</span>
+            <span class="chip">Marketing</span>
+            <span class="chip">Analytics</span>
+            <span class="chip">Entrepreneurship</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" data-section="skills">
+    <div class="section-inner">
+      <span class="section-eyebrow reveal">02 — Skills &amp; Capabilities</span>
+      <h2 class="section-title reveal">Technical <em>Expertise</em></h2>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div class="skill-logo-wrap">
+            <img class="skill-logo" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="skill-logo-fallback" style="display:none">⚡</div>
+          </div>
+          <h3 class="skill-name"><strong>Power BI</strong></h3>
+          <p>Building interactive dashboards and business intelligence reports for financial decision-making.</p>
+        </div>
+
+        <div class="skill-card reveal delay-1">
+          <div class="skill-logo-wrap">
+            <img class="skill-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0a/MySQL_textlogo.svg" alt="MySQL" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="skill-logo-fallback" style="display:none">🗄</div>
+          </div>
+          <h3 class="skill-name"><strong>SQL &amp; MySQL</strong></h3>
+          <p>Querying and managing relational databases for financial data analysis and reporting workflows.</p>
+        </div>
+
+        <div class="skill-card reveal delay-2">
+          <div class="skill-logo-wrap">
+            <img class="skill-logo" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="skill-logo-fallback" style="display:none">🐍</div>
+          </div>
+          <h3 class="skill-name"><strong>Python</strong></h3>
+          <p>Scripting and data manipulation for analytics pipelines, automation and financial modelling.</p>
+        </div>
+
+        <div class="skill-card reveal delay-1">
+          <div class="skill-logo-wrap">
+            <img class="skill-logo" src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="MS Excel" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="skill-logo-fallback" style="display:none">📊</div>
+          </div>
+          <h3 class="skill-name"><strong>MS Office &amp; Excel</strong></h3>
+          <p>Advanced Excel for financial modelling, pivot tables, data visualisation and business reporting.</p>
+        </div>
+
+        <div class="skill-card reveal delay-2">
+          <div class="skill-logo-wrap">
+            <img class="skill-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/01/Canva.svg" alt="Canva" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+            <div class="skill-logo-fallback" style="display:none">🎨</div>
+          </div>
+          <h3 class="skill-name"><strong>Canva</strong></h3>
+          <p>Designing professional presentations, visual content and business communication materials.</p>
+        </div>
+
+        <div class="skill-card reveal delay-3">
+          <div class="skill-logo-wrap skill-logo-wrap--text">
+            <span class="skill-text-logo">📋</span>
+          </div>
+          <h3 class="skill-name"><strong>Policy Research</strong></h3>
+          <p>Evidence-based policy analysis, stakeholder engagement and governance research for public policy.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" data-section="experience">
+    <div class="section-bg-lines"></div>
+    <div class="section-inner">
+      <span class="section-eyebrow reveal">03 — Experience</span>
+      <h2 class="section-title reveal">Where I've <em>Contributed</em></h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="tl-connector">
+            <div class="tl-dot"></div>
+            <div class="tl-stem"></div>
+          </div>
+          <div class="tl-body">
+            <span class="tl-date">Oct 2025 — Present</span>
+            <h3><strong>Founding Member — Career &amp; Skill Development Committee</strong></h3>
+            <p class="tl-org">Indian Institute of Management Sambalpur · Sambalpur, Odisha</p>
+            <p>Collaborated with committee members to plan and successfully host professional development workshops, including a <strong>LinkedIn profile-building session</strong> and a <strong>resume-building session</strong> for BS students. Actively shaping the career development landscape for a new cohort at one of India's premier institutions.</p>
+            <div class="tl-tags"><span>Leadership</span><span>Workshop Planning</span><span>Career Dev</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-1">
+          <div class="tl-connector">
+            <div class="tl-dot"></div>
+            <div class="tl-stem"></div>
+          </div>
+          <div class="tl-body">
+            <span class="tl-date">Apr 2020 — Apr 2024</span>
+            <h3><strong>Class Prefect</strong></h3>
+            <p class="tl-org">Mount Litera Zee School, Baraut, Uttar Pradesh</p>
+            <p>Served as <strong>Class Prefect from Grade 9 to Grade 12</strong>, demonstrating consistent trust, leadership and responsibility in managing and representing the class across all four years.</p>
+            <div class="tl-tags"><span>Leadership</span><span>Responsibility</span><span>4 Years</span></div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal delay-2">
+          <div class="tl-connector">
+            <div class="tl-dot"></div>
+          </div>
+          <div class="tl-body">
+            <span class="tl-date">2020 — 2024</span>
+            <h3><strong>Multiple Inter-House Quiz Champion</strong></h3>
+            <p class="tl-org">Mount Litera Zee School, Baraut</p>
+            <p>Won multiple inter-house quiz competitions, showcasing <strong>strong general knowledge</strong> and quick problem-solving abilities across diverse subject areas.</p>
+            <div class="tl-tags"><span>General Knowledge</span><span>Problem Solving</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" data-section="education">
+    <div class="section-inner">
+      <span class="section-eyebrow reveal">04 — Education</span>
+      <h2 class="section-title reveal">Academic <em>Foundation</em></h2>
+      <div class="edu-grid">
+
+        <div class="edu-card reveal">
+          <div class="edu-year-badge">2025 — 2029</div>
+          <div class="edu-icon">🎓</div>
+          <h3><strong>B.S. in Management &amp; Public Policy</strong></h3>
+          <p class="edu-school"><strong>Indian Institute of Management Sambalpur</strong></p>
+          <p>Rigorous interdisciplinary programme combining management, public policy, finance and data analytics at one of India's newest IIMs.</p>
+          <span class="edu-status">Currently Enrolled</span>
+        </div>
+
+        <div class="edu-card reveal delay-1">
+          <div class="edu-year-badge">2022 — 2024</div>
+          <div class="edu-icon">📚</div>
+          <h3><strong>Senior Secondary — PCM &amp; Computer Science</strong></h3>
+          <p class="edu-school"><strong>Mount Litera Zee School, Baraut, U.P.</strong></p>
+          <p>Physics, Chemistry, Mathematics with Computer Science. Strong technical and analytical foundation.</p>
+          <span class="edu-status grade">89.66%</span>
+        </div>
+
+        <div class="edu-card reveal delay-2">
+          <div class="edu-year-badge">2020 — 2022</div>
+          <div class="edu-icon">🏫</div>
+          <h3><strong>Secondary School</strong></h3>
+          <p class="edu-school"><strong>Mount Litera Zee School, Baraut, U.P.</strong></p>
+          <p>Outstanding academic performance demonstrating strong discipline and consistent dedication across all subjects.</p>
+          <span class="edu-status grade">95.67%</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" data-section="contact">
+    <div class="section-bg-dots"></div>
+    <div class="section-inner">
+      <span class="section-eyebrow reveal">05 — Contact</span>
+      <div class="contact-grid">
+        <div class="contact-left reveal">
+          <h2>Let's<br /><em>Connect</em></h2>
+          <p><strong>Open to opportunities</strong> in finance, analytics, and policy research. Always happy to network and learn from professionals across industries.</p>
+        </div>
+        <div class="contact-right reveal delay-1">
+          <a href="mailto:bsmpp25prabhatt@iimsambalpur.ac.in" class="contact-card">
+            <div class="cc-icon">✉</div>
+            <div class="cc-body">
+              <span class="cc-label">Email</span>
+              <span class="cc-val"><strong>bsmpp25prabhatt@iimsambalpur.ac.in</strong></span>
+            </div>
+            <span class="cc-arrow">→</span>
+          </a>
+          <a href="tel:+918273750621" class="contact-card">
+            <div class="cc-icon">☎</div>
+            <div class="cc-body">
+              <span class="cc-label">Phone</span>
+              <span class="cc-val"><strong>+91 82737 50621</strong></span>
+            </div>
+            <span class="cc-arrow">→</span>
+          </a>
+          <a href="https://linkedin.com/in/prabhattomar" target="_blank" rel="noopener" class="contact-card">
+            <div class="cc-icon">in</div>
+            <div class="cc-body">
+              <span class="cc-label">LinkedIn</span>
+              <span class="cc-val"><strong>linkedin.com/in/prabhattomar</strong></span>
+            </div>
+            <span class="cc-arrow">→</span>
+          </a>
+          <div class="contact-card static">
+            <div class="cc-icon">📍</div>
+            <div class="cc-body">
+              <span class="cc-label">Location</span>
+              <span class="cc-val"><strong>Baghpat, Uttar Pradesh, India</strong></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-left">
+        <span class="footer-name">Prabhat Tomar</span>
+        <span class="footer-role">Finance &amp; Business Analytics · IIM Sambalpur '29</span>
+      </div>
+      <div class="footer-center">
+        <span class="footer-quote">"Turning Data into Smarter Financial Decisions"</span>
+      </div>
+      <div class="footer-right">
+        <span class="footer-copy">© 2025 Prabhat Tomar</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
